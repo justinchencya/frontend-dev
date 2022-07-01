@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Video page</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Insert a local video file, the control parameter allows controlling buttons on the web page-->
+    <!--Height (width) is automatically adjusted if width (height) is specified-->
+    <!--We can also specify a thumbnail for the video with the poster argument and let the video autoplay-->
+    <video
+      src="/videos/demo.mp4"
+      poster="/images/L1000051.JPG"
+      autoplay
+      controls
+      width="600px"
+    >
+      UCLA Graduation MP4
+    </video>
+
+    <!--We can also insert a YouTube video-->
+    <!--The iframe element basically allows us to peek into another website-->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/pQN-pnXPaVg"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <a href="index.html">Home Page</a>
+  </body>
+</html>
