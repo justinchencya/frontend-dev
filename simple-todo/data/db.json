@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "title": "Dinner",
+      "details": "Having dinner with friends.",
+      "id": 1
+    },
+    {
+      "title": "Basketball",
+      "details": "Play basketball with friends after dinner.",
+      "id": 2
+    },
+    {
+      "title": "Test1",
+      "details": "This is a test task.",
+      "id": 3
+    }
+  ]
+}
