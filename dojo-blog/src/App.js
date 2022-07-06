@@ -8,6 +8,7 @@ import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 // Commands for running the program
 // To start the development server: nmp start
 // To start the json server: npx json-server --watch data/db.json --port 8000
+// To install react-router-dom: npm install react-router-dom@5
 
 function App() {
   return (
